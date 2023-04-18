@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rosybrown;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-transform: capitalize;
+
+}
+
+.logo{
+    float: center;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.barra{
+    float: right;
+    padding: 20px;
+}
+
+.barra li{
+    list-style: none;
+}
+
+.barra ul li{
+    display: inline-block;
+}
+
+.barra a{
+    color: white;
+    text-decoration: none;
+}
+
+.barra a:hover{
+    color: #333;
+}
+
+.t-s{
+    color: #333;
+    text-align: left;
+}
+
+.t-a, p{
+    color: #333;
+    text-align: left;
+    font-style: italic;
+}
+
+.t-p{
+    color: #333;
+    text-align: left;
+    font-style: italic;
+}
+
+h1{
+    color: rosybrown;
+    font-style: italic;
+    text-align: center;
+    font-size: 22px; 
+}
+
+h2{
+    color: rosybrown;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+p{
+    color: rosybrown; 
+} 
+
+.formulario{
+    display: flex;
+    color: #333;
+    font-style: italic;
+}
+
+
+.contacto2{
+    color: #333;
+    font-size: 20px;
+    font-style: italic;
+    background-position: center;
+}
+
+.size1{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.imagenp{
+    height: 400px;
+    width: 330px;
+    background-color: #333;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+}
+
+img{
+    display: inline-flex;
+    padding: 5px;
+    margin: auto;
+}
+
+.sec{
+    width: 100%;
+    background-color: rosybrown;
+    text-align: center;
+    font-style: italic; 
+    text-transform: capitalize;
+    padding: 5px;
+    color: #333;
+}
+
+.cont{
+    height: auto;
+    width: 100%;
+}
+
+.cont1, .cont2, .cont3, .cont4{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+audio{
+    width: 250px;
+    box-shadow: 5px 5px 20px;
+    color: rosybrown;
+    border-radius: 90px;
+    transform: scale(0.75);
+}
+
+
+footer{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.redes i{
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.redes i:hover{   
+    color: #333;
+}
+
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 4px;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+.title\_\_galery{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-small; 
+}
+
+.f-letter::first-letter{
+    color:rosybrown;
+    font-size: 45px;
+}
+
+.col{
+    color: rosybrown;
+    border-radius: 20%;
+    transform: scale(0.90);
+}
+
+.container{
+    background-color: rosybrown;
+    padding: 10px;
+}
+
+
+@media (min-width: 1024px){
+    .cont1, .cont2, .cont3, .cont4{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (min-width:1024px){
+    .formulario{
+        height: auto;
+        width: auto;
+    }
+}
