@@ -54,11 +54,12 @@ header{
     text-align: left;
 }
 
-.t-a, p{
+.t-a{
     color: #333;
     text-align: left;
     font-style: italic;
 }
+
 
 .t-p{
     color: #333;
