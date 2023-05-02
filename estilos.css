@@ -48,20 +48,9 @@ header {
   color: #333;
 }
 
-.t-s {
-  color: #333;
-  text-align: left;
-}
-
-.t-a {
-  color: #333;
-  text-align: left;
-  font-style: italic;
-}
-
 .t-p {
   color: #333;
-  text-align: left;
+  text-align: center;
   font-style: italic;
 }
 
@@ -77,10 +66,44 @@ h2 {
   font-style: italic;
   text-align: center;
   text-transform: capitalize;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.asesoramiento {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.moodboard {
+  color: #333;
+  font-size: 8px;
+  text-align: center;
+  font-style: italic;
+}
+
+.renders {
+  color: #333;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
 }
 
 p {
   color: rosybrown;
+  text-align: center;
 }
 
 .formulario {
@@ -133,6 +156,26 @@ img {
 }
 
 .cont1, .cont2, .cont3, .cont4 {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.container5 {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.container6 {
   height: auto;
   width: auto;
   display: flex;
@@ -214,6 +257,4 @@ footer {
     height: auto;
     width: auto;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
