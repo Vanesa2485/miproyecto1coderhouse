@@ -15,13 +15,12 @@ header{
     height: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     text-transform: capitalize;
-
 }
 
 .logo{
     float: center;
     color: white;
-    font-style: italic;
+    font-style: normal;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -53,19 +52,20 @@ header{
 .t-p{
     color: #333;
     text-align: center;
-    font-style: italic;
+    font-style: normal;
+    font-size: 28px;
 }
 
 h1{
     color: rosybrown;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     font-size: 22px; 
 }
 
 h2{
     color: rosybrown;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     text-transform: capitalize;
     animation-duration: 4s;
@@ -82,50 +82,58 @@ h2{
 }
 }
 
-.asesoramiento{
+
+.asesoramientos{
     color: #333;
-    font-size: 20px;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 350%;
     text-align: center;
-    font-style: italic;
 }
 
-.moodboard{
+
+.mood{
     color: #333;
-    font-size: 8px;
+    font-size: 23px;
     text-align: center;
-    font-style: italic;
+    font-style: normal;
+    background-color: rosybrown;
+}
+
+.servicios{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 300%;
 }
 
 .renders{
     color: #333;
     text-align: center;
-    font-style: italic;
-    font-size: 20px;
+    font-size: 23px;
+    font-style: normal;
+    background-color: rosybrown;
 }
+
 
 p{
     color: rosybrown;
+    font-size: 23px;
     text-align: center;
-
-} 
-
-.formulario{
-    display: flex;
-    color: #333;
-    font-style: italic;
+    font-style: normal;
 }
 
 
 .contacto2{
     color: #333;
-    font-size: 20px;
-    font-style: italic;
-    background-position: center;
+    text-align: center;
+    font-size: 25px;
 }
 
 .size1{
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
+    font-style: normal;
     text-align: center;
 }
 
@@ -148,7 +156,7 @@ img{
     width: 100%;
     background-color: rosybrown;
     text-align: center;
-    font-style: italic; 
+    font-style: normal; 
     text-transform: capitalize;
     padding: 5px;
     color: #333;
@@ -177,6 +185,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
+    padding: 5px;
 }
 
 .container6{
@@ -187,6 +196,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
+    padding: 5px;
 }
 
 
