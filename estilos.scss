@@ -21,7 +21,7 @@ header{
     float: center;
     color: white;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
 }
@@ -51,19 +51,21 @@ header{
 
 .t-p{
     color: #333;
-    text-align: center;
+    text-align: left;
     font-style: normal;
     font-size: 28px;
+    padding: 15px;
 }
 
 h1{
     color: rosybrown;
     font-style: normal;
     text-align: center;
-    font-size: 22px; 
+    font-size: 30px; 
 }
 
 h2{
+    font-size: 30px;
     color: rosybrown;
     font-style: normal;
     text-align: center;
@@ -88,7 +90,8 @@ h2{
     font-size: 28px;
     font-style: normal;
     line-height: 350%;
-    text-align: center;
+    text-align: left;
+    padding: 15px;
 }
 
 
@@ -138,10 +141,8 @@ p{
 }
 
 .imagenp{
-    height: 400px;
-    width: 330px;
-    background-color: #333;
-    background-size: cover;
+    height: 70%;
+    width: 100%;
     margin: auto;
     background-position: center;
 }
@@ -154,6 +155,7 @@ img{
 
 .sec{
     width: 100%;
+    font-size: 25px;
     background-color: rosybrown;
     text-align: center;
     font-style: normal; 
@@ -186,7 +188,7 @@ img{
     justify-content: center;
     justify-content: space-around;
     padding: 5px;
-}
+} 
 
 .container6{
     height: auto;
@@ -197,6 +199,14 @@ img{
     justify-content: center;
     justify-content: space-around;
     padding: 5px;
+}
+
+.logo2{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-color: rosybrown;
+    background-image: linear-gradient(rosybrown , white);
 }
 
 
