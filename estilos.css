@@ -12,18 +12,18 @@ header {
   background-color: rosybrown;
   color: white;
   width: 100%;
-  height: 80px;
+  height: 90px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
 }
 
-.logo {
+.encabezado {
   float: center;
   color: white;
-  font-style: normal;
+  font-style: italic;
   font-size: 25px;
   text-align: center;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .barra {
@@ -33,6 +33,7 @@ header {
 
 .barra li {
   list-style: none;
+  font-size: 18px;
 }
 
 .barra ul li {
@@ -125,8 +126,9 @@ p {
 
 .contacto2 {
   color: #333;
-  text-align: center;
+  text-align: left;
   font-size: 25px;
+  padding: 10px;
 }
 
 .size1 {
@@ -173,6 +175,13 @@ img {
   justify-content: center;
   justify-content: space-around;
 }
+@media (min-width: 1024px) {
+  .cont1, .cont2, .cont3, .cont4 {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+}
 
 .container5 {
   height: auto;
@@ -196,7 +205,7 @@ img {
   padding: 5px;
 }
 
-.logo2 {
+.logo1 {
   height: 100%;
   width: 100%;
   background-position: center;
@@ -265,12 +274,6 @@ footer {
   padding: 10px;
 }
 
-@media (min-width: 1024px) {
-  .cont1, .cont2, .cont3, .cont4 {
-    height: auto;
-    width: auto;
-  }
-}
 @media (min-width: 1024px) {
   .formulario {
     height: auto;
