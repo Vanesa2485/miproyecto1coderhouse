@@ -21,7 +21,7 @@ header {
   float: center;
   color: white;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ header {
 
 .barra li {
   list-style: none;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .barra ul li {
@@ -97,7 +97,8 @@ h5 {
   font-size: 30px;
   color: rosybrown;
   font-style: normal;
-  text-align: center;
+  text-align: left;
+  padding-left: 15px;
   animation-duration: 4s;
   animation-name: aparecer;
   animation-delay: 5s;
@@ -252,11 +253,11 @@ img {
 }
 
 audio {
-  width: 250px;
+  width: 300px;
   box-shadow: 5px 5px 20px;
   color: rosybrown;
-  border-radius: 90px;
-  transform: scale(0.75);
+  border-radius: 100px;
+  transform: scale(0.9);
 }
 
 footer {
