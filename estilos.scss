@@ -17,7 +17,7 @@ header{
     text-transform: capitalize;
 }
 
-.encabezado{
+.logo{
     float: center;
     color: white;
     font-style: italic;
@@ -33,7 +33,7 @@ header{
 
 .barra li{
     list-style: none;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .barra ul li{
@@ -62,15 +62,14 @@ h1{
     color: rosybrown;
     font-style: normal;
     text-align: center;
-    font-size: 30px; 
+    font-size: 25px; 
 }
 
 h2{
-    font-size: 30px;
+    font-size: 25px;
     color: rosybrown;
     font-style: normal;
     text-align: center;
-    text-transform: capitalize;
     animation-duration: 4s;
     animation-name: aparecer;
     animation-delay: 5s;
@@ -84,6 +83,26 @@ h2{
             }
 }
 }
+
+h5{
+    font-size: 30px;
+    color: rosybrown;
+    font-style: normal;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+        @keyframes aparecer{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+}
+} 
+
 
 
 .asesoramientos{
@@ -127,6 +146,19 @@ p{
     text-align: center;
     font-style: normal;
 }
+
+.frase{
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.card{
+    justify-content: center;
+    padding: 20px;
+    padding-left: 100px;
+}
+
 
 
 .contacto2{
@@ -180,7 +212,7 @@ img{
     justify-content: center;
     justify-content: space-around;
 
-    @media (min-width: 1024px){
+    @media screen and (min-width: 1024px){
         height: auto;
         width: auto;
         flex-direction: column;
@@ -208,6 +240,7 @@ img{
     justify-content: space-around;
     padding: 5px;
 }
+
 
 .logo1{
     height: 100%;
